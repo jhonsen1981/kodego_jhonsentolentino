@@ -1,8 +1,8 @@
-fun main(){
-    var number1 : Int = 21
-    var number2 : Int = 21
+fun main() {
+    var number1: Int = 21
+    var number2: Int = 21
 
-    var answer : Int = number1 % number2
+    var answer: Int = number1 % number2
 
     println("Answer is $answer")
 
@@ -18,9 +18,6 @@ fun main(){
     //increment operator
     var incrementNum :Int = ++number1
     println(incrementNum)
-
-
-
 
 
 
