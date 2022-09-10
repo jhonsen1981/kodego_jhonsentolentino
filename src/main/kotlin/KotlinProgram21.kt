@@ -1,30 +1,30 @@
 fun main(){
     //instantiation - process of creating an object
     var myObject = MyClass("Hello World")
+    var myGenericObject = MyGenericClass("Hi")
 
-    var myObject2 = MyClass("Hi World")
 }
-
-
+//Generics
+class MyGenericClass<T>(value:T ){
+    init{
+        println(value.toString().length)
+    }
+}
+//Non generic class
 class MyClass(value : String){
     init{
-        println(value)
+        println(value.length)
     }
 }
 
 
 
 /*
-Class -> objects
+Class -> objects (class ginagamit sa pag create ng object)
 object -> variable
-       -> function(process)
+       -> functions(process)
 uppercase -> first letter
-examples.
-Strng
+String
 Int
-
-
-
-
 
  */
